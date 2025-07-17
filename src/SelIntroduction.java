@@ -18,6 +18,7 @@ public class SelIntroduction {
         driver.manage().window().maximize();
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
+        System.out.println("I am 2nd person who is adding to the code of 1st person.");
         driver.findElement(By.xpath("//a[@data-toggle='dropdown']")).click();
         //driver.close();
         //driver.quit();
