@@ -19,6 +19,8 @@ public class Scope {
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		int totallinks=links.size();
 		System.out.println(totallinks);
+		System.out.println("Hello. I am Gitstuff. i.e. 1st person");
+		
 		driver.close();
 		
 		
