@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+//import java.util.Arrays;
+//import java.util.List;
 
 public class CoreJavaBrushUp2 {
 
@@ -32,9 +32,6 @@ public class CoreJavaBrushUp2 {
 			System.out.println(s);
 		}
 		System.out.println(family.contains("Aarohee"));
-		
-		//List<Dimensions> arr2List = Arrays.asList(arr2);
-		List<int[]> arr2ArrayList=Arrays.asList(arr2);
 		
 	}
 	
